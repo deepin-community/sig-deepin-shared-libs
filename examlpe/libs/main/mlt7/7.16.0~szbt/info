@@ -1,0 +1,14 @@
+{
+    "name": "mlt7",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "Clang13.0.1/GCC8.3",
+    "base": "UOS V20 1060",
+    "maintainer": "ziggy",
+    "version": "7.16.0~szbt"
+}
+{
+    "support-build-systems": [
+        "none"
+    ],
+}
