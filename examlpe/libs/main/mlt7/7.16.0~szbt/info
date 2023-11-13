@@ -6,6 +6,7 @@
     "base": "UOS V20 1060",
     "maintainer": "ziggy",
     "version": "7.16.0~szbt"
+    "install_prefix": "/usr/local/3rd_libs/mlt-7.16.0"
 }
 {
     "support-build-systems": [

@@ -14,6 +14,7 @@
     "base": "UOS V20 1060",	#编译本库/应用所使用的系统版本/环境
     "maintainer": "ziggy",	#维护者标识
     "version": "5.6.17~szbt"	#本库/应用版本号，建议格式为"version~维护者自定义版本"
+    "install_prefix": "/usr/local/dtk5-gles"	#如果该库涉及到固定路径带来的问题，请在本项中记录编译时所设置的安装路径
 }
 {
     "support-build-systems": [
