@@ -1,0 +1,14 @@
+{
+    "name": "Qt5.15.10-OpenGLES",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "Clang13.0.1/GCC8.3",
+    "base": "UOS V20 1060",
+    "maintainer": "ziggy",
+    "version": "231020~szbt"
+}
+{
+    "support-build-systems": [
+        "shirodeb-recipes"
+    ],
+}
