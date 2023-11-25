@@ -1,0 +1,55 @@
+Usage: ./configure [options]
+
+Help:
+  -h, --help               print this message
+
+Standard options:
+  --prefix=PREFIX          install architecture-independent files in PREFIX
+                           [/usr/local]
+  --exec-prefix=EPREFIX    install architecture-dependent files in EPREFIX
+                           [PREFIX]
+  --bindir=DIR             install binaries in DIR [EPREFIX/bin]
+  --libdir=DIR             install libs in DIR [EPREFIX/lib]
+  --includedir=DIR         install includes in DIR [PREFIX/include]
+  --extra-asflags=EASFLAGS add EASFLAGS to ASFLAGS
+  --extra-cflags=ECFLAGS   add ECFLAGS to CFLAGS
+  --extra-ldflags=ELDFLAGS add ELDFLAGS to LDFLAGS
+  --extra-rcflags=ERCFLAGS add ERCFLAGS to RCFLAGS
+
+Configuration options:
+  --disable-cli            disable cli
+  --system-libx264         use system libx264 instead of internal
+  --enable-shared          build shared library
+  --enable-static          build static library
+  --disable-bashcompletion disable installation of bash-completion script
+  --enable-bashcompletion  force installation of bash-completion script
+  --bashcompletionsdir=DIR install bash-completion script in DIR [auto]
+  --disable-opencl         disable OpenCL features
+  --disable-gpl            disable GPL-only features
+  --disable-thread         disable multithreaded encoding
+  --disable-win32thread    disable win32threads (windows only)
+  --disable-interlaced     disable interlaced encoding support
+  --bit-depth=BIT_DEPTH    set output bit depth (8, 10, all) [all]
+  --chroma-format=FORMAT   output chroma format (400, 420, 422, 444, all) [all]
+
+Advanced options:
+  --disable-asm            disable platform-specific assembly optimizations
+  --enable-lto             enable link-time optimization
+  --enable-debug           add -g
+  --enable-gprof           add -pg
+  --enable-strip           add -s
+  --enable-pic             build position-independent code
+
+Cross-compilation:
+  --host=HOST              build programs to run on HOST
+  --cross-prefix=PREFIX    use PREFIX for compilation tools
+  --sysroot=SYSROOT        root of cross-build tree
+
+External library support:
+  --disable-avs            disable avisynth support
+  --disable-swscale        disable swscale support
+  --disable-lavf           disable libavformat support
+  --disable-ffms           disable ffmpegsource support
+  --disable-gpac           disable gpac support
+  --disable-lsmash         disable lsmash support
+
