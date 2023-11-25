@@ -1,0 +1,11 @@
+{
+    "name": "Python311",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "GCC8.3",
+    "base": "UOS V20 1061",
+    "maintainer": "ziggy",
+    "version": "3.11.6"
+    "prefix": "/opt/deepin-shared-libs/python311"
+}
+
