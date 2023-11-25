@@ -1,0 +1,11 @@
+{
+    "name": "FFmpeg4",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "GCC8.3",
+    "base": "UOS V20 1061",
+    "maintainer": "ziggy",
+    "version": "4.4.4+szbt1"
+    "prefix": "/usr/local/3rd_libs/ffmpeg-4.4.4+szbt1"
+}
+
