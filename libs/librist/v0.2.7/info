@@ -1,0 +1,11 @@
+{
+    "name": "librist",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "Clang13.0.1,GCC8.3",
+    "base": "UOS V20 1061",
+    "maintainer": "ziggy",
+    "version": "0.2.7"
+    "prefix": "/usr/local/3rd_libs/librist-v0.2.7"
+}
+
