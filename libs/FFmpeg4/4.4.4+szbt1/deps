@@ -6,4 +6,6 @@ libx264-0.164
 fdk-aac_2.0.2
 
 ## UOS 1061
-libomp5-13
+ladspa-sdk
+libbluray-dev
+libjack-dev
