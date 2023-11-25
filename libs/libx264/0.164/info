@@ -1,0 +1,11 @@
+{
+    "name": "libx264",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "GCC8.3",
+    "base": "UOS V20 1061",
+    "maintainer": "ziggy",
+    "version": "0.164"
+    "prefix": "/usr/local/3rd_libs/libx264-0.164"
+}
+
