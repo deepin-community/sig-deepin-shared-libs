@@ -1,0 +1,17 @@
+# 2023.11.13
+## deepin-shared-libs
+ffmpeg-4.4.4+szbt1
+Qt5.15.10 OpenGLES
+libdav1d-1.2.1+szbt1
+librist-v0.2.7
+libsrt-1.5.2
+Python-3.11.6+szbt1
+libx264-0.164
+libfdk-aac_2.0.2
+
+## UOS 1061
+libpci-dev libxcb1-dev libxcb-xinerama0-dev libxcb-xfixes0-dev \
+libxcb-sync-dev libxcb-shm0-dev libxcb-shape0-dev libxcb-render0-dev \
+libxcb-present-dev libx11-xcb-dev libx264-dev libcurl4-openssl-dev \
+libluajit-5.1-dev libxcb-composite0-dev libv4l-dev libvlc-dev \
+libspeexdsp-dev libcjson-dev
