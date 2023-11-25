@@ -8,8 +8,4 @@
     "version": "231020~szbt"
     "prefix": "/usr/local/qt5.15-gles"
 }
-{
-    "support-build-systems": [
-        "shirodeb-recipes"
-    ],
-}
+
