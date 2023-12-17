@@ -1,0 +1,11 @@
+{
+    "name": "Qt5.15.10-OpenGLES",
+    "type": "library",
+    "DSL-API	": ["none"],
+    "complier": "Clang13.0.1,GCC8.3",
+    "base": "UOS V20 1061",
+    "maintainer": "ziggy",
+    "version": "5.15.10+szbt2"
+    "prefix": "/usr/local/qt5.15-gles"
+}
+
