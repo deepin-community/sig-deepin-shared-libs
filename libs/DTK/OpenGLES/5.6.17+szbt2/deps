@@ -1,0 +1,5 @@
+# deepin-shared-libs
+Qt5.15.10GLES >= 5.15.10+szbt2
+
+# UOS 1061
+libomp5-13
