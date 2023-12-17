@@ -1,11 +1,11 @@
 {
-    "name": "FFmpeg4",
-    "type": "library",
+    "name": "com.obs-studio",
+    "type": "application",
     "DSL-API	": ["none"],
-    "complier": "GCC8.3",
+    "complier": "Clang13.0.1,GCC8.3",
     "base": "UOS V20 1061",
     "maintainer": "ziggy",
-    "version": "4.4.4+szbt1"
-    "prefix": "/usr/local/3rd_libs/ffmpeg-4.4.4+szbt1"
+    "version": "29.0.2"
+    "prefix": "/opt/apps/com.obs-studio"
 }
 
