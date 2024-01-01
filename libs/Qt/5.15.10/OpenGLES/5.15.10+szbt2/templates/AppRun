@@ -1,0 +1,24 @@
+#!/bin/bash
+
+SELF=$(readlink -f "$0")
+HERE=${SELF%/*}
+QT5_GLES_DIR="/opt/deepin-shared-libs/Qt5.15.10gles"
+DTK5_GLES_DIR="/opt/deepin-shared-libs/DTK-5.6.17gles"
+ARCH="x86_64-linux-gnu"
+#ARCH="aarch64-linux-gnu"
+
+export PATH="${HERE}/bin${PATH:+:$PATH}:$PATH"
+
+export LD_LIBRARY_PATH="${HERE}/lib:${HERE}/lib/$ARCH:${QT5_GLES_DIR}/lib:\
+${DTK5_GLES_DIR}/lib"
+
+export QT_PLUGIN_PATH="${HERE}/lib/$ARCH/plugins:\
+${QT5_GLES_DIR}/plugins:${DTK5_GLES_DIR}/lib/qt5/plugins"
+
+export QT_QPA_PLATFORM_PLUGIN_PATH="${QT5_GLES_DIR}/plugins/platforms"
+
+export QML2_IMPORT_PATH="${HERE}/lib/$ARCH/qml:${QT5_GLES_DIR}/qml"
+
+export XDG_DATA_DIRS="${HERE}/share:${DTK5_GLES_DIR}/share:$XDG_DATA_DIRS:/usr/share"
+
+exec ark $*
